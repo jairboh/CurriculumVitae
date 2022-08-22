@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+
+/*<!----- Nav ----->*/
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding: 5px 10%;
+    position: fixed;
+    top: 0;
+
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 40px;
+    width: auto;
+    transition: all 0.3s;
+
+}
+
+.header .logo .img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #ffbc0e;
+}
+.header .btn button{
+    font-weight: 700;
+    color:#1b3039;
+    padding: 9px 25px;
+    background:#eceff1;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color:#eceff1;
+    color: #ffbc0e;
+    transform: scale(1.1);
+
+}
+
+.AboutMe{
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 60px;
+    display: flex;
+}
+.TextAboutMe{
+    padding: 1em;
+}
+
+#Hello{
+    font-size: 40px;
+}
+
+#Section{
+    font-size: 30px;
+    text-align:center;
+}
+
+#Profilepic{
+    border-radius: 50%;
+}
+
+hr{
+    height:2px;
+    border-width:0;
+    color:#1b3039;
+    background-color:#1b3039;
+}
+
+.contenido{
+    margin: 20px;
+    margin-left: 100px; ;
+    
+}
+.caja{
+    display: inline;
+    padding: 10px;
+}
+
+#ExpEdu{
+    font-size: 40px;
+}
+#ExpUni{
+    font-size: 30px;
+}
+
+/*<!-----Skills progress----->*/
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    list-style: none;
+    
+}
+
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+    background: #1b3039;
+    display: block;
+    height: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.Adaptability{
+    width: 95%;
+    animation: Adaptability 3s;
+}
+.Teamwork{
+    width: 95%;
+    animation: Teamwork 3s;
+}
+.Mathematical{
+    width: 90%;
+    animation: Mathe 3s;
+}
+.Leadership{
+    width: 95%;
+    animation: Leadership 3s;
+}
+.Organization{
+    width: 85%;
+    animation: Organization 3s;
+}
+.Problem{
+    width: 95%;
+    animation: Problem 3s;
+}
+.cpp{
+    width: 80%;
+    animation: cpp 3s;
+}
+.python{
+    width: 90%;
+    animation: python 3s;
+}
+.javascript{
+    width: 70%;
+    animation: javascript 3s;
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.sql{
+    width: 90%;
+    animation: sql 3s;
+}
+.postgreSQL{
+    width: 90%;
+    animation: postgreSQL 3s;
+}
+.Microsoft{
+    width: 100%;
+    animation: Microsoft 3s;
+}
+.Spanish{
+    width: 100%;
+    animation: Spanish 3s;
+}
+.English{
+    width: 70%;
+    animation: English  3s;
+}
+ 
+@keyframes Adaptability{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes Teamwork{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes Mathe{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Leadership{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes Organization{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes Problem{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes cpp{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes postgreSQL{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Microsoft{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes Spanish{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes English{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redes ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: #1b3039;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.3);
+    transform: .2s;
+}
+
+.redes ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    filter: none;
+}
+
+
+
+
