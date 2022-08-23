@@ -1,2 +1,3 @@
 # CurriculumVitae
-cv
+
+https://jairboh.github.io/CurriculumVitae/
